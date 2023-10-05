@@ -1,0 +1,8 @@
+:root{
+    --cellColor:lightblue;
+    --cellMargin: 2px;
+}
+.cell{
+    background-color: var(--cellColor);
+    margin: var(--cellMargin);
+}
