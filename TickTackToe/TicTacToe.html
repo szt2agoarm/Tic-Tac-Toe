@@ -9,30 +9,34 @@
 </head>
 <body>
 
+    <div id="message"></div>
     <h1>Tic Tac Toe</h1>
 
-    <div id="message"></div>
+<div id="playGround">
+
+
 
     <table>
         <tr>
-            <td class="cell"></td>
-            <td class="cell"></td>
-            <td class="cell"></td>    
+            <td onclick="makeMove(0,0)" class="cell"></td>
+            <td onclick="makeMove(0,1)" class="cell"></td>
+            <td onclick="makeMove(0,2)" class="cell"></td>    
         </tr>
         <tr>
-            <td class="cell"></td>
-            <td class="cell"></td>
-            <td class="cell"></td>    
+            <td onclick="makeMove(1,0)" class="cell"></td>
+            <td onclick="makeMove(1,1)" class="cell"></td>
+            <td onclick="makeMove(1,2)" class="cell"></td>    
         </tr>
         <tr>
-            <td class="cell"></td>
-            <td class="cell"></td>
-            <td class="cell"></td>    
+            <td onclick="makeMove(2,0)" class="cell"></td>
+            <td onclick="makeMove(2,1)" class="cell"></td>
+            <td onclick="makeMove(2,2)" class="cell"></td>    
         </tr>
     </table>
-    <div>
-        <button id="Restart">Restart</button>
-    </div>
+
+    <button id="Restart">Restart</button>
+
+</div>
 
     <script src="script.js"></script>
 </body>

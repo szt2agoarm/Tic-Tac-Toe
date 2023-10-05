@@ -1,8 +1,27 @@
 :root{
     --cellColor:lightblue;
-    --cellMargin: 2px;
+    --cellMargin: 4px;
+    --cellSize: 50px;
+    --tableBackground: rgb(79, 79, 218);opacity:0.6;
+}
+body{
+    background-color: var(--tableBackground);
+}
+#playGround{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .cell{
     background-color: var(--cellColor);
     margin: var(--cellMargin);
+    padding: var(--cellSize);
+}
+#Restart{
+    position: absolute;
+    /* margin-top: 50px; */
+    top:50%;
+    background-color:#0a0a23;
+    color: #fff;
 }
