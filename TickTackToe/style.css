@@ -1,7 +1,7 @@
 :root{
     --cellColor:lightblue;
     --cellMargin: 4px;
-    --cellSize: 50px;
+    --cellSize: 70px;
     --tableBackground: rgb(79, 79, 218);opacity:0.6;
 }
 body{
@@ -19,8 +19,8 @@ body{
     padding: var(--cellSize);
 }
 #Restart{
-    position: absolute;
-    /* margin-top: 50px; */
+    /* position: absolute; */
+    margin-top: 50px;
     top:50%;
     background-color:#0a0a23;
     color: #fff;
